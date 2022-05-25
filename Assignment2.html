@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Assignment2</title>
+</head>
+<style>
+    *{
+        font-family:  'Lato', sans-serif;
+    }
+    #navbar {
+        width: 90%;
+        height: 70px;
+        box-shadow: 0px 10px 10px -10px #111;   
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #navbar>div{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #navbar>div>p{
+        font-size: 20px;
+       
+    }
+    #navbar>div>p:hover{
+        font-size: 20px;
+        color: hsl(220deg 96% 65%);
+    }
+    #navbar>div>h1{
+        background: linear-gradient(-45deg, #207ce5 0%, #ce4be8 100%);
+        color: white;
+        margin-left: -350px;
+        padding: 15px;
+    }
+
+    #body {
+        width: 90%;
+        height: 600px;
+        
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .data {
+        width: 49%;
+        height: 550px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data>div {
+        width: 95%;
+        height: 250px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 15px;
+
+    }
+
+    .data>div>div {
+        width: 30%;
+        height: 90%;
+        
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .data>div>div>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .data>div>div>p {
+        font-size: 18px;
+
+        color: gray;
+    }
+
+    .data>div>div>h2 {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+
+    #body>.data2 {
+        width: 49%;
+    }
+
+   .blue {
+       
+        font-size: 20px;
+        width: 80%;
+        color: #207ce5;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+   
+    
+
+    #body>.data2>h1 {
+        font-size: 40px;
+       
+        width: 80%;
+        color: hsl(0deg 0% 20%);
+    }
+
+   
+
+    .data2>p+div {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .data2>p+div>img {
+        width: 200px;
+        height: 100px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .data2>p+div>p {
+        font-size: 25px;
+        width: 50%;
+        margin-left: 20px;
+    }
+  .gray{
+      color: gray;
+      font-size: 20px;
+      width: 98%;
+  }
+</style>
+
+<body>
+    <div id="navbar">
+        <div>
+            <h1>StudyLab</h1>
+        </div>
+        <div>
+            <p>Home</p>
+            <p>About</p>
+            <p>Course</p>
+            <p>Instructor</p>
+            <p>Blog</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <div id="body">
+        <div class="data2">
+            <p class="blue">Welcome To StudyLab</p>
+            <h1>We Are StudyLab An Online Learning Center</h1>
+            <p class="gray">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+                paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p  class="gray">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. and then thus ends story about greed large ocean</p>
+            <div>
+                <img src="https://i.ibb.co/h1S01jZ/s.png"
+                    alt="">
+                <p >Learn Anything from StudyLab, Watch Video</p>
+
+            </div>
+        </div>
+        <div class="data">
+            <div>
+                <div>
+                    <img src="https://i.ibb.co/7k3QfnM/Logo1.png" alt="">
+                    <h2>Top Quality Content</h2>
+                    <p>A small river named Duden flows by their place and supplies
+                    </p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/SsnfD5N/logo2.png" alt="">
+                    <h2>High Skilled Instructor</h2>
+                    <p>A small river named Duden flows by their place and supplies
+                    </p>
+                </div>
+
+            </div>
+            <div>
+                <div>
+                    <img src="https://i.ibb.co/1M7W0tQ/3.png" alt="">
+                    <h2>World Class & Quiz</h2>
+                    <p>A small river named Duden flows by their place and supplies
+                    </p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/pxJN3VS/4.png" alt="">
+                    <h2>Get Certified</h2>
+                    <p>A small river named Duden flows by their place and supplies
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
